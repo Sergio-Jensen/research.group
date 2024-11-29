@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* ---------清空默认样式----------- */
+html, body, header,footer,div, a, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td, blockquote, fieldset { margin:0px; padding:0px;font-family: 'PALAT','FZ';}
+img { border:0 none; vertical-align: top;}
+ul, ol, li { list-style-type: none; }
+html{font-family: "Arial"; font-size: 14px;}
+h1, h2, h3, h4, p, span, label, del, a, strong, em, li, dt, dd { white-space:normal; word-wrap:break-word; word-break:break-all; }
+input{border:0;background:none;}
+table, tr, th, td { /* border: 0 none; */ padding: 4px; border-collapse:collapse; border-spacing:0; }
+fieldset { border:0 none; }
+button { cursor: pointer; }
+i, em, cite, address { font-style: normal; }
+a, a:link { color: #666666;text-decoration:none; cursor: pointer; border:0; }                                     
+a:hover, a:active { text-decoration: none; }
+a:focus,input,textarea { outline: none; }
+a{ blr:expression(this.onFocus=this.blur()); /* IE Opera */ outline:none; /* FF Opera */ }
+a:focus{ -moz-outline-style: none; /* FF */ }
+.clearfix { overflow: hidden; zoom: 1 }
+.clear:after{content: ".";display: block;height:0;clear: both;visibility: hidden;overflow: hidden;}
+.hide{display: none!important;}
+@font-face {font-family: 'FZCS';
+    src: url('FZCS Regular.ttf');}
+@font-face {font-family: 'enAD';
+    src: url('Adamas-Regular.otf');}
+@font-face {font-family: 'PALAT';
+    src: url('pala.ttf');}
+@font-face {font-family: 'FZ';
+    src: url('FZ.TTF');}
+@font-face {font-family: 'Courier New';
+    src: url('cour.ttf');}
+@font-face {font-family: '宋体';
+    src: url('simsum.ttc');}

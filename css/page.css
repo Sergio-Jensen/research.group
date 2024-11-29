@@ -28,7 +28,7 @@
 .Links li a{text-decoration: underline;color: #fff;font-size: 14px;letter-spacing: 1px;line-height: 30px;}
 /*People*/
 .People{background: #f3f3f0;padding:70px 0px 50px 0px;}
-.People .Investigator{color:rgb(50, 50, 50);font-size: 18px;text-align: center;padding: 0px 0px 10px 0px;background: url(../assets/icon-slide.png) center bottom no-repeat;}
+.People .Investigator{color:rgb(50, 50, 50);font-size: 18px;text-align: center;padding: 0px 0px 10px 0px;background: url(../assets/icon-slide.png) center bottom no-repeat;margin: 0 0 70px 0;}
 .People .peo1{text-align: center;width:1200px;margin: 0 auto 76px;}
 .People .peo1 .Img{width: 630px;text-align: center;margin: 5px auto 35px;height: auto;}
 .People .peo1 .Img img{max-width: 100%;max-height: 100%;}
@@ -37,11 +37,10 @@
 .People .name2{color: #7f7f7f;font-size: 14px;padding: 10px 0px 0px 0px}
 .People .email{color: #7f7f7f;font-size: 14px;font-family: 'Courier New', Courier, monospace;}
 .People1{background: #e2e2dd;}
-.People2{padding: 70px 0px 0px 0px;}
-.People2 ul{width:1200px;margin: 35px auto 0px;text-align: center;}
-.People2 ul li{width:350px;text-align: center;/* float: left; */margin: 0px 9px 76px 0px;display: inline-block;font-size: 0;}
+.People2{padding: 70px 0 0 0}
+.People2 ul{width:95%;padding: 20px auto 50px ;text-align: center;}
+.People2 ul li{width:340px;text-align: center;/* float: left; */margin: 0px 5px 76px 0px;display: inline-block;font-size: 0;}
 .People2 ul li .Img{width:260px;overflow: hidden;margin:0px auto 35px; border: 1.5px solid rgb(200, 200, 200); border-radius: 5px;padding: .25rem}
-.People2 ul li:nth-child(4n){margin-right:0px;}
 .People2 ul li .Img img{max-width:100%;height: 100%;}
 .People3{background:#f3f3f0;}
 
@@ -57,7 +56,7 @@
 .Pictures img{max-width: 100%;margin:10px 0px;}
 
 /*Publications*/
-ol.PUBS{list-style-type: none;counter-reset: my-counter;padding: 30px 0 0 0;}
+ol.PUBS{list-style-type: none;counter-reset: my-counter;padding: 0 0 0 0;}
 ol li.pubs{text-align:justify;list-style-type:decimal;list-style-position:inside;
 	text-align-last: left;text-align: justify;line-height: 30px;text-indent:-3em;padding:5px 0 5px 3em;list-style-type:none;}
 ol li.pubs:before{background-color: grey;counter-increment: my-counter;content: counter(my-counter);margin-right: 1em;	padding: 3px 8px;

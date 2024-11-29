@@ -79,8 +79,8 @@
 	.header li a{line-height: 60px;}
 	.header li:hover{background: #1b1b1b;}
 	#fullPage .banWord{display: none;}
-	#fullPage h1{font-size:40px;line-height: 50px;padding-bottom: 50px;}
-  #fullPage .banWord2{display:block;position: absolute;top:50%;width:100%;margin-top: -120px;text-align: center;}
+	#fullPage h1{font-size:40px;line-height: 50px;padding-bottom: 20px;}
+  #fullPage .banWord2{display:block;position: absolute;top:50%;width:100%;margin-top: -130px;text-align: center;}
 	#fullPage{background: #ebe5d9;}
 	#fullPage .swiper-container{/* margin: 90px 0px 0px 0px; */height:50vh;line-height:50vh;position: relative;top:-25vw;}
 	.Ban .icon{background:url(../assets/icon-index2.png) center center no-repeat;width: 31px;height: 37px;background-size: 100%;margin-left: -20px;bottom:100px;}

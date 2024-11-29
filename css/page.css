@@ -93,11 +93,10 @@ ol li.pubs:before{background-color: grey;counter-increment: my-counter;content: 
 	/*People*/
 	.People .peo1{width:95%;margin: 0 auto 35px;}
 	.People .peo1 .Img{width:100%;}
-	.People2 ul{width:100%;}
-	.People2 ul li{width: 45%;padding: 0px 1px 0px; /*float: left;*/}
+	.People2 ul{width:95%;margin: 20px auto 50px ;text-align: center;}
+	.People2 ul li{width: 45%;padding: 0px 5px 0px; /*float: left;*/}
 	.People2 ul li .Img{width: auto;max-height: 60vw;margin: 5px auto 15px;}
 	.People2 ul li .Img img{width: 100%;height: auto;}
-	.People2 ul{width:95%;}
 	.People .email{font-size:9px;}
 	.People .peo1 .Img img{height: auto;}
 	.People2{padding: 40px auto 20px;}

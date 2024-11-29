@@ -67,6 +67,7 @@ ol li.pubs:before{background-color: grey;counter-increment: my-counter;content: 
 .CVs{color:rgb(50, 50, 50);font-size: 18px;text-align: left;padding: 0px 0px 10px 0px;background: url(../assets/icon-slide.png) left bottom no-repeat;}
 .smallcaps {font-variant: small-caps;}
 .Box .Info .Img img{width: 40%; text-align: center}
+.Box{padding:20px auto;width: 90%;}
 
 @media(max-width:880px){
 	.bannerImg1{display: none;}

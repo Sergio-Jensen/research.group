@@ -83,7 +83,7 @@
   #fullPage .banWord2{display:block;position: absolute;top:50%;width:100%;margin-top: -120px;text-align: center;}
 	#fullPage{background: #ebe5d9;}
 	#fullPage .swiper-container{/* margin: 90px 0px 0px 0px; */height:50vh;line-height:50vh;position: relative;top:-25vw;}
-	.Ban .icon{background:url(../assets/icon-index2.png) center center no-repeat;width: 40px;height: 52px;background-size: 100%;margin-left: -20px;bottom:100px;}
+	.Ban .icon{background:url(../assets/icon-index2.png) center center no-repeat;width: 31px;height: 37px;background-size: 100%;margin-left: -20px;bottom:100px;}
 	#fullPage .swiper-container .swiper-button-prev{background: url(../assets/icon-left.png) center center no-repeat;font-size: 0px;background-size: 60%;}
     #fullPage .swiper-container .swiper-button-next{background: url(../assets/icon-right.png) center center no-repeat;font-size: 0px;background-size: 60%;}
     .copyright{font-size:10px;line-height: 30px;padding: 10px 0px 10px 0px;}

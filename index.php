@@ -106,9 +106,8 @@ China's Diplomacy</strong></span><br />
                     <div class="swiper-button-prev"><</div>
                     <div class="swiper-button-next">></div>
                 </div>
-                    <div class="footer number-box">
-                <ul class="number-box-table clear" nums="" id="allcount">
-                </ul>
+                <div class="footer">
+                    <ul id="myParagraph"></ul>
                 <p class="Visits">Visits</p>
                 <div class="copyright">All rights reserved by Hongsong Liu<a style="color:#171717;"> </a></div>
             </div>
@@ -122,15 +121,24 @@ China's Diplomacy</strong></span><br />
 <script type="text/javascript" src="./js/fullPage.js"></script>
 
 <script>
-    var n="000000"
-        var relations = ("" + n).split("");
-        var temp = "";
+    var n = <?php $servername = "127.0.0.1";$username = "root";
+        $password = "KaenPhi...54";$dbname = "website_stats";
+// 创建连接
+        $conn = new mysqli($servername, $username, $password, $dbname);
+// 检查连接
+        if ($conn->connect_error) {die("连接失败: " . $conn->connect_error);}
+// 更新浏览次数
+        $sql = "UPDATE page_views SET views = views + 1 WHERE id = 1";$conn->query($sql);
+// 获取当前浏览次数
+        $sql = "SELECT views FROM page_views WHERE id = 1";$result = $conn->query($sql);
+        $row = $result->fetch_assoc();echo $row["views"];$conn->close();?>;
+    var relations = ("" + n).split("");
+    var temp = "";
         if (relations != "") {
             for (var i = 0; i < relations.length; i++) {
                 temp += '<li class="number-add">' + relations[i] + '</li>';
-            }
-            $(".footer ul").html(temp);
-        }
+            }}
+    document.getElementById("myParagraph").innerHTML = temp
 
     var swiper = new Swiper('.swiper-container', {
         spaceBetween: 30,

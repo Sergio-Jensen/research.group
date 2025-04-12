@@ -38,7 +38,7 @@
 .People .email{color: #7f7f7f;font-size: 14px;font-family: 'Courier New', Courier, monospace;}
 .People1{background: #e2e2dd;}
 .People2{padding: 70px 0 0 0}
-.People2 ul{width:95%;padding: 20px auto 50px ;text-align: center;}
+.People2 ul{width:100%;padding: 20px auto 50px ;text-align: center;}
 .People2 ul li{width:340px;text-align: center;/* float: left; */margin: 0px 5px 76px 0px;display: inline-block;font-size: 0;}
 .People2 ul li .Img{width:260px;overflow: hidden;margin:0px auto 35px; border: 1.5px solid rgb(200, 200, 200); border-radius: 5px;padding: .25rem}
 .People2 ul li .Img img{max-width:100%;height: 100%;}

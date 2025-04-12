@@ -30,7 +30,7 @@
 .People{background: #f3f3f0;padding:70px 0px 50px 0px;}
 .People .Investigator{color:rgb(50, 50, 50);font-size: 18px;text-align: center;padding: 0px 0px 10px 0px;background: url(../assets/icon-slide.png) center bottom no-repeat;margin: 0 0 70px 0;}
 .People .peo1{text-align: center;width:1200px;margin: 0 auto 76px;}
-.People .peo1 .Img{width: 630px;text-align: center;margin: 5px auto 35px;height: auto;}
+.People .peo1 .Img{width: 450px;overflow: hidden;margin:0px auto 35px; border: 1.5px solid rgb(200, 200, 200); border-radius: 5px;padding: .25rem}
 .People .peo1 .Img img{max-width: 100%;max-height: 100%;}
 .People .name1{color:#7f7f7f;font-size: 18px;text-align: center;font-weight: bold;line-height: 30px;
 	padding: 0px 0px 10px 0px;background: url(../assets/icon-slide1.png) center bottom no-repeat;margin: 0px 0px 15px 0px;}

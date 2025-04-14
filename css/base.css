@@ -30,3 +30,5 @@ a:focus{ -moz-outline-style: none; /* FF */ }
     src: url('cour.ttf');}
 @font-face {font-family: '宋体';
     src: url('simsum.ttc');}
+@font-face {font-family: 'HTLG';
+    src: url('HTLG Regular.ttf');}
